@@ -2,5 +2,5 @@
 # escape=\
 # Printing Hello, Captain!
 FROM alpine:latest
-RUN echo 'Hello, Captain!'
-
+#RUN echo 'Hello, Captain!'
+CMD ["echo","Hello, Captain!"]
